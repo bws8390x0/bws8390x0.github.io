@@ -1,1 +1,272 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>職務経歴 | Futami Eri</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap">
+<style>
+:root{--bg:#f4f6f9;--card:#fff;--ink:#1d2733;--sub:#5b6776;--navy:#1f3a5f;--steel:#3f6a94;--tint:#e6edf5;--line:#d3dce7}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#111a26;--card:#182333;--ink:#e6ebf1;--sub:#9aa8b8;--navy:#9dbde3;--steel:#7fa6d1;--tint:#22334a;--line:#2c3e56}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.9 "Noto Sans JP","Hiragino Sans","Yu Gothic",Meiryo,sans-serif}
+.wrap{max-width:820px;margin:0 auto;padding:56px 20px 96px}
+header{margin-bottom:64px;padding-bottom:36px;border-bottom:3px solid var(--navy)}
+.back{display:inline-block;margin-bottom:16px;font-size:.9rem;color:var(--steel);text-underline-offset:.2em}
+header h1{margin:0;font-size:2rem;font-weight:700;color:var(--navy);letter-spacing:.06em}
+header .meta{margin:6px 0 0;color:var(--sub);font-size:.95rem}
+h2{margin:72px 0 24px;font-size:1.3rem;font-weight:700;color:var(--navy);padding-left:14px;border-left:5px solid var(--navy);line-height:1.4}
+.lead{margin:0}
+.company{margin:0 0 56px}
+.company>.head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:4px 16px;padding:14px 20px;background:var(--navy);color:#fff;border-radius:6px 6px 0 0}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]) .company>.head{color:#0f1a29}}
+.company h3{margin:0;font-size:1.1rem;font-weight:700}
+.company .term{font-size:.9rem;opacity:.9}
+.badge{display:inline-block;margin-left:10px;padding:0 10px;font-size:.75rem;background:#fff;color:var(--navy);border-radius:99px;vertical-align:1px}
+.projects{border:1px solid var(--line);border-top:0;border-radius:0 0 6px 6px;background:var(--card);padding:8px 24px}
+.project{position:relative;padding:28px 0 28px 26px;border-bottom:1px solid var(--line)}
+.project:last-child{border-bottom:0}
+.project::before{content:"";position:absolute;left:0;top:40px;width:10px;height:10px;border-radius:50%;background:var(--steel)}
+.project::after{content:"";position:absolute;left:4px;top:56px;bottom:-12px;width:2px;background:var(--line)}
+.project:last-child::after{display:none}
+.period{margin:0;font-size:.85rem;color:var(--steel);font-weight:500}
+.project h4{margin:2px 0 4px;font-size:1.05rem;line-height:1.6}
+.info{margin:0 0 10px;font-size:.88rem;color:var(--sub)}
+.project p.text{margin:12px 0 0}
+.tags{display:flex;flex-wrap:wrap;gap:6px;list-style:none;margin:12px 0 0;padding:0}
+.tags li{padding:1px 10px;font-size:.78rem;line-height:1.7;background:var(--tint);color:var(--navy);border-radius:4px}
+h5{margin:22px 0 4px;font-size:.92rem;color:var(--navy)}
+ul.list{margin:0;padding-left:1.3em}
+ul.list li{margin:2px 0}
+.internal{margin:20px 0 8px;padding:18px 22px;background:var(--tint);border-radius:6px}
+.internal h4{margin:0 0 4px;font-size:1.05rem;color:var(--navy)}
+.internal .info{margin:0 0 8px}
+.internal .list b{color:var(--navy)}
+.ph{color:var(--sub)}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line)}
+th,td{padding:9px 16px;text-align:left;border-bottom:1px solid var(--line);font-size:.95rem}
+thead th{background:var(--tint);color:var(--navy);font-size:.85rem}
+td:last-child{width:9em;color:var(--sub)}
+.cert{margin:0;padding:16px 24px 16px 40px;background:var(--card);border:1px solid var(--line);border-radius:6px}
+footer{margin-top:64px;color:var(--sub);font-size:.85rem;text-align:right}
+@media (max-width:560px){body{font-size:15px}.wrap{padding-top:36px}.projects{padding:4px 16px}.project{padding-left:22px}}
+:focus-visible{outline:3px solid var(--steel);outline-offset:2px}
+</style>
+</head>
+<body>
+<main class="wrap">
 
+<header>
+<a class="back" href="../">← トップへ戻る</a>
+<h1>職務経歴</h1>
+</header>
+
+<section>
+<h2>職務要約</h2>
+<p class="lead">約10年間、Web開発および社内ITサポートに従事。開発経験（PHP・Go・JavaScript）を基盤に、現在は社内ITとして Active Directory / Microsoft Entra ID や Microsoft 365 の運用管理、約500名規模のユーザーサポートを担当しています。</p>
+<p>加えて、HTML / JavaScript や Power Automate を用いた業務改善、AWS（Amazon WorkSpaces・Windows 365）の運用最適化を推進し、アカウント作成の半自動化や仮想環境の棚卸しによるコスト削減（年間約50万円規模）を実現しました。</p>
+<p>運用対応だけでなく、課題の特定から改善・標準化まで一貫して対応できる点を強みと考えています。</p>
+</section>
+
+<section>
+<h2>職務経歴</h2>
+<article class="company">
+<div class="head"><h3>「企業向けウェルビーイング・人事支援サービス企業<span class="badge">現職</span></h3><span class="term">2025年6月 〜 現在</span></div>
+<div class="projects">
+<section class="project">
+<p class="period">2025年6月 〜 現在</p>
+<h4>社内ITサポート・アカウント管理・業務改善</h4>
+<p class="info">体制：3名　／　対象ユーザー：約500名</p>
+<h5>担当業務</h5>
+<ul class="list">
+<li>問い合わせ対応（Teams／持ち込みベース）</li>
+<li>PCキッティング（週平均5台）</li>
+<li>レンタル会社へのPC修理依頼</li>
+<li>Microsoft 365 に関するユーザーサポート対応</li>
+<li>Active Directory / Microsoft Entra ID のアカウント管理（作成・変更・削除）</li>
+<li>Amazon WorkSpaces や Windows 365 CloudPC（合計約200環境）の仮想環境運用管理</li>
+<li>ネットワークやサーバに関する1次問い合わせ窓口、原因特定</li>
+<li>SAP・kintone のアカウント、権限管理</li>
+<li>各種IT関連の申請書処理（権限追加削除・変更、機器貸し出しなど）</li>
+</ul>
+<h5>業務改善・自動化</h5>
+<ul class="list">
+<li>HTML / JavaScript を用いたアカウント作成補助ツールの開発</li>
+<li>Excel（TSV）データを CSV へ変換するツールを作成し、入力作業を効率化</li>
+<li>Amazon WorkSpaces の CLI コマンド生成ツールを開発し、構築作業の標準化を実現</li>
+<li>Power Automate を用いた業務プロセス改善を推進</li>
+</ul>
+<h5>成果</h5>
+<ul class="list">
+<li>WorkSpaces 約100環境の棚卸しを実施し、約30環境を削減（年間約50万円規模のコスト削減）</li>
+<li>アカウント作成業務の半自動化により、作業時間および入力ミスを削減</li>
+<li>CLI コマンド作成ツールにより、作業の属人化を解消し、運用の再現性を向上</li>
+<li>新規メンバーへの教育を担当し、早期戦力化に貢献</li>
+</ul>
+</section>
+</div>
+</article>
+
+<article class="company">
+<div class="head"><h3>ITシステム開発・エンジニアリングサービス企業</h3><span class="term">2021年7月 〜 2025年1月</span></div>
+<div class="projects">
+<section class="internal">
+<h4>自社での活動</h4>
+<p class="info">勤務形態：客先常駐（SES）。下記プロジェクトの業務とは別に、自社では次の活動にも携わりました。</p>
+<ul class="list">
+<li><b>メンター</b>：<span class="ph">入社して一年半から退職までの間くらい、3名に実施。月一で30分の間隔で主体性を伸ばせるように心がけてました。</span></li>
+<li><b>採用担当</b>：<span class="ph">入社から半年して退職までの間、新卒の1次面接官やスカウトなどを実施。</span></li>
+</ul>
+</section>
+<section class="project">
+<p class="period">2023年7月 〜 2025年1月</p>
+<h4>採用管理システム（ATS）の API 開発・保守</h4>
+<p class="info">役割：メンバー　／　メンバー数：8名</p>
+<p class="text">SES で事業会社の外部公開 API の保守開発プロジェクトに参画。参画して間もなくチームでの開発手法としてスクラムを開始しましたが、スクラム未成熟なチームに対しスクラム理解を促進し、スクラムマスターの補佐として運用改善に貢献。チーム全体の開発進行の安定化を実現しました。</p>
+<ul class="tags"><li>Go（1.18, 1.21）<li>AWS（Codeシリーズ, ECS, Lambda, RDS, DynamoDB, SQS, CloudWatch, Athena）<li>NewRelic<li>GitHub</ul>
+</section>
+<section class="project">
+<p class="period">2023年3月 〜 2023年6月</p>
+<h4>メディアコンテンツ売上管理システムの受託開発サポート</h4>
+<p class="info">役割：メンバー　／　メンバー数：4名（全体14名）</p>
+<p class="text">画面要件定義フェーズでの画面モックの作成・改修を担当。参画時点で約80件残っていた改修タスクのうち30件を、品質を維持したまま対応。差し戻しを抑え、タスク消化の効率化に貢献。</p>
+<ul class="tags"><li>HTML/CSS<li>JavaScript/jQuery<li>Git</ul>
+</section>
+<section class="project">
+<p class="period">2022年8月 〜 2023年2月</p>
+<h4>採用管理システム（ATS）の開発</h4>
+<p class="info">役割：メンバー　／　メンバー数：7名</p>
+<p class="text">SES で事業会社の新規サービスに、結合テスト前の状態で参画。ドキュメントが存在しない状態から、ソースコード解析とヒアリングにより仕様を整理し、テスト項目書を新規作成。</p>
+<ul class="tags"><li>TypeScript<li>Node.js<li>Nuxt.js（v3.0）<li>PostgreSQL<li>AWS（ECS, Codeシリーズ, RDS, DynamoDB, CloudWatch）<li>DataDog<li>GitHub</ul>
+</section>
+<section class="project">
+<p class="period">2021年7月 〜 2022年7月</p>
+<h4>採用管理システム（ATS）の開発・保守</h4>
+<p class="info">役割：メンバー　／　メンバー数：5名</p>
+<ul class="tags"><li>PHP（7.3）<li>Laravel 7<li>HTML/CSS<li>JavaScript/jQuery<li>MySQL<li>AWS（EC2, RDS, CloudWatch）<li>DataDog<li>GitHub</ul>
+</section>
+</div>
+</article>
+
+<article class="company">
+<div class="head"><h3>広告・Web・クリエイティブ制作会社</h3><span class="term">2019年9月 〜 2021年6月</span></div>
+<div class="projects">
+<section class="project">
+<p class="period">2020年1月 〜 2021年6月</p>
+<h4>旅行販売店 PV数確認画面の受託開発</h4>
+<p class="info">役割：メンバー　／　メンバー数：2名</p>
+<ul class="tags"><li>Python（2.8）<li>Vue.js<li>Nuxt.js（2.10）<li>GCP（Firestore, BigQuery）</ul>
+</section>
+<section class="project">
+<p class="period">2019年9月 〜 2021年6月</p>
+<h4>旅行販売店所有システムの受託開発</h4>
+<p class="info">役割：メンバー　／　メンバー数：3名</p>
+<ul class="tags"><li>PHP（5.2, 7.1）<li>HTML/CSS<li>JavaScript/jQuery</ul>
+</section>
+</div>
+</article>
+
+<article class="company">
+<div class="head"><h3>IT人材・システム開発支援企業</h3><span class="term">2018年1月 〜 2018年11月</span></div>
+<div class="projects">
+<section class="project">
+<p class="period">2018年9月 〜 2018年11月</p>
+<h4>通信事業者 社内システム構築に伴う PM サポート</h4>
+<p class="info">役割：メンバー　／　メンバー数：3名（全体6名）</p>
+</section>
+<section class="project">
+<p class="period">2018年7月 〜 2018年10月</p>
+<h4>社内基盤システムのマイグレーション</h4>
+<p class="info">役割：メンバー　／　メンバー数：8名（全体20名）</p>
+<ul class="tags"><li>HTML/CSS<li>JavaScript/jQuery</ul>
+</section>
+<section class="project">
+<p class="period">2018年1月 〜 2018年4月</p>
+<h4>アンケートサイト開発</h4>
+<p class="info">役割：メンバー　／　メンバー数：4名</p>
+<ul class="tags"><li>Perl<li>HTML/CSS<li>JavaScript/jQuery<li>MySQL</ul>
+</section>
+</div>
+</article>
+
+<article class="company">
+<div class="head"><h3>ITシステム開発・エンジニアリングサービス企業</h3><span class="term">2016年8月 〜 2017年12月</span></div>
+<div class="projects">
+<section class="project">
+<p class="period">2017年9月 〜 2017年12月</p>
+<h4>保育支援システムの受託開発</h4>
+<p class="info">役割：メンバー　／　メンバー数：8名</p>
+<ul class="tags"><li>PHP（CakePHP）<li>HTML/CSS<li>JavaScript/jQuery<li>MariaDB<li>Git</ul>
+</section>
+<section class="project">
+<p class="period">2016年12月 〜 2017年3月</p>
+<h4>関東圏情報サイト改修</h4>
+<p class="info">役割：メンバー　／　メンバー数：3名</p>
+<ul class="tags"><li>PHP<li>HTML/CSS<li>JavaScript/jQuery<li>MySQL</ul>
+</section>
+<section class="project">
+<p class="period">2016年8月 〜 2016年11月</p>
+<h4>保育支援システムの受託開発</h4>
+<p class="info">役割：メンバー　／　メンバー数：8名</p>
+<ul class="tags"><li>PHP（CakePHP）<li>HTML/CSS<li>JavaScript/jQuery<li>MariaDB<li>Git</ul>
+</section>
+</div>
+</article>
+
+<article class="company">
+<div class="head"><h3>ITシステム開発・エンジニアリングサービス企業</h3><span class="term">2013年5月 〜 2015年11月</span></div>
+<div class="projects">
+<section class="project">
+<p class="period">2013年10月 〜 2015年11月</p>
+<h4>総合商社向け 支社内ヘルプデスク業務（オンサイト・電話・メール）</h4>
+<p class="info">役割：メンバー　／　メンバー数：4名</p>
+<p class="text">1次問い合わせ 約80件／月、2次問い合わせ 約40件／月</p>
+</section>
+<section class="project">
+<p class="period">2013年5月 〜 2013年9月</p>
+<h4>携帯販売代理店向け 社内ヘルプデスク業務（オンサイト・電話・メール）</h4>
+<p class="info">役割：メンバー　／　メンバー数：4名</p>
+<p class="text">1次問い合わせ 約100件／月</p>
+</section>
+</div>
+</article>
+</section>
+
+<section>
+<h2>技術スタックと経験年数</h2>
+<table>
+<thead><tr><th>技術</th><th>概算経験年数</th></tr></thead>
+<tbody>
+<tr><td>Go言語</td><td>1年</td></tr>
+<tr><td>PHP</td><td>3年</td></tr>
+<tr><td>Laravel</td><td>2年</td></tr>
+<tr><td>Python</td><td>1年</td></tr>
+<tr><td>Vue.js (Nuxt.js)</td><td>1年</td></tr>
+<tr><td>JavaScript/jQuery</td><td>5年</td></tr>
+<tr><td>TypeScript</td><td>1年</td></tr>
+<tr><td>Node.js</td><td>1年</td></tr>
+<tr><td>HTML/CSS</td><td>5年</td></tr>
+<tr><td>MySQL</td><td>4年</td></tr>
+<tr><td>PostgreSQL</td><td>1年</td></tr>
+<tr><td>AWS</td><td>3年</td></tr>
+<tr><td>GCP</td><td>1年</td></tr>
+<tr><td>Git (GitHub)</td><td>3年</td></tr>
+</tbody>
+</table>
+</section>
+
+<section>
+<h2>資格</h2>
+<ul class="cert">
+<li>AWS Certified Developer - Associate</li>
+<li>基本情報技術者</li>
+</ul>
+</section>
+
+<footer>以上</footer>
+</main>
+</body>
+</html>
